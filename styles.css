@@ -1,0 +1,109 @@
+*{
+    font-family: 'Varela Round', Arial;
+}
+body{
+    text-align: center;
+    color: rgb(114, 224, 228);
+    background-color: rgb(87, 86, 86);
+    border-color: rgb(114, 224, 228);
+}
+a{
+    text-decoration: none;
+    color: inherit
+}
+input{
+    margin: 0.5rem;
+}
+p{
+    font-weight: bold;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(119, 119, 119);
+    border: 5px solid rgb(114, 224, 228);
+    display: inline-block;
+    box-shadow: 8px 5px 10px black;
+}
+/*-------------------Squares---------------------*/
+.one{
+    border-top-left-radius: 45px;
+}
+.three{
+    border-top-right-radius: 45px;
+}
+.seven{
+    border-bottom-left-radius: 45px;
+}
+.nine{
+    border-bottom-right-radius: 45px;
+}
+/*-----------------------------------------------*/
+.O{
+   position: relative;
+}
+.O:after{
+    content: '🛡️';
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.X{
+   position: relative;
+}
+.X:after{
+    content: '⚔️';
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.Buttom{
+    margin-top: 2rem;
+    width: 10rem;
+    height: 4rem;
+    border: solid 4px;
+    border-radius: 45px;
+        
+    display: inline-block;
+    justify-content: center;
+    align-items: center
+}
+.Buttom:hover{
+    background-color: rgb(119, 119, 119);
+}
+#Buttons{
+    justify-content: center;
+    margin: auto;
+    
+}
+input:focus {
+    box-shadow: 0;
+    outline: 0;
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+}
+h3{
+    display: inline;
+    font-size: 2rem;
+}
+#Board{
+    padding: 8px;
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 22rem;
+    border: solid 3px;
+    border-radius: 45px;
+}

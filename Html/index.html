@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <div id='Board' >
+        <h2>Scoreboard</h2>
+        <h3 id='Gamer1' > Player1: </h3> 
+        <h3 id='Pont1'>  </h3> 
+        <h3 id='Gamer2' > Player2: </h3> 
+        <h3 id='Pont2' > </h3>
+    </div>
+
+
+    <div class="stage">
+            <div>
+                <div id='0' class="square one"></div>
+                <div id='1' class="square"></div>
+                <div id='2' class="square three"></div>
+            </div>
+            <div>
+                <div id='3' class="square"></div>
+                <div id='4' class="square"></div>
+                <div id='5' class="square"></div>
+            </div>
+            <div>
+                <div id='6' class="square seven"></div>
+                <div id='7' class="square"></div>
+                <div id='8' class="square nine"></div>
+            </div>
+
+        <div id="Buttons">
+            <div id='Reset' class='Buttom' onCLick='Resetar()'> <p> Reset Game </p> </div>
+            <a href='Nomes.html' id='Voltar' class='Buttom' > <p> Voltar </p> </a>
+        </div>
+    </div>
+    
+    <script src="../JavaScript/game.js"></script>
+    <script src="../JavaScript/interface.js"></script>
+</body>
+</html>
